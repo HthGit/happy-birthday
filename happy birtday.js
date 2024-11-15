@@ -7,8 +7,8 @@ let w = (c.width = window.innerWidth),
     // change the text in here //
     strings: ["HAPPY", "Ngay Moi!", "to", "Bo sap", "tieu duong"],
     charSize: 30,
-    charSpacing: 20,
-    lineHeight: 30,
+    charSpacing: 35,
+    lineHeight: 40,
 
     cx: w / 2,
     cy: h / 2,
@@ -373,7 +373,7 @@ function anim() {
     if (done) {
       for (let l = 0; l < letters.length; ++l) letters[l].reset();
     }
-  }, 7); // Chậm lại 0.5 giây
+  }, 0); // Chậm lại 0.5 giây
 }
 
 for (let i = 0; i < opts.strings.length; ++i) {
