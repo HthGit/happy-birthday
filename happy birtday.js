@@ -54,7 +54,7 @@ let w = (c.width = window.innerWidth),
   (TauQuarter = Tau / 4),
   (letters = []);
 
-ctx.font = opts.charSize + "px Verdana";
+ctx.font = opts.charSize + "px Georgia";
 
 function Letter(char, x, y) {
   this.char = char;
